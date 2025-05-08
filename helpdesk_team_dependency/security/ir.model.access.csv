@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_helpdesk_ticket_dependency_history_all,helpdesk.ticket.dependency.history.all,model_helpdesk_ticket_dependency_history,base.group_system,1,1,1,1
+access_helpdesk_ticket_dependency_history_user,helpdesk.ticket.dependency.history.user,model_helpdesk_ticket_dependency_history,base.group_user,1,0,0,0

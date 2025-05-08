@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_helpdesk_ticket_form_inherit" model="ir.ui.view">
+        <field name="name">helpdesk.ticket.form.inherit.dependency</field>
+        <field name="model">helpdesk.ticket</field>
+        <field name="inherit_id" ref="helpdesk_mgmt.ticket_view_form"/>
+        <field name="arch" type="xml">
+            <!-- Add dependency_team_id field with blank option -->
+            <xpath expr="//field[@name='team_id']" position="after">
+                <field name="dependency_team_id" 
+                       placeholder="Select a team or leave blank"
+                       options="{'no_create': True, 'no_open': True, 'show_null': True}"/>
+            </xpath>
+            
+            <!-- Add history notebook page -->
+            <xpath expr="//notebook" position="inside">
+                <page string="Dependency History" name="dependency_history_page">
+                    <field name="dependency_history_ids" readonly="1" create="0" delete="0">
+                        <tree>
+                            <field name="team_id" string="Team"/>
+                            <field name="change_date" string="Change Date"/>
+                            <field name="duration" string="Duration"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

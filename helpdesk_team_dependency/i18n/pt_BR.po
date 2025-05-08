@@ -1,0 +1,107 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_team_dependency
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-08 11:27+0000\n"
+"PO-Revision-Date: 2025-05-08 08:36-0300\n"
+"Last-Translator: Ananias Filho <ananias@kmee.cocm.br>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__change_date
+#: model_terms:ir.ui.view,arch_db:helpdesk_team_dependency.view_helpdesk_ticket_form_inherit
+msgid "Change Date"
+msgstr "Data  de mudança"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket__dependency_team_id
+msgid "Delivery dependency"
+msgstr "Dependência de Entrega"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket__dependency_history_ids
+#: model_terms:ir.ui.view,arch_db:helpdesk_team_dependency.view_helpdesk_ticket_form_inherit
+msgid "Dependency History"
+msgstr "Histórico de dependência"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__duration
+#: model_terms:ir.ui.view,arch_db:helpdesk_team_dependency.view_helpdesk_ticket_form_inherit
+msgid "Duration"
+msgstr "Duração"
+
+#. module: helpdesk_team_dependency
+#: model:res.groups,name:helpdesk_team_dependency.group_helpdesk_team_dependency_manager
+msgid "Helpdesk Dependency Manager"
+msgstr "Responsável pelas dependências"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model,name:helpdesk_team_dependency.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "Chamado"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model,name:helpdesk_team_dependency.model_helpdesk_ticket_dependency_history
+msgid "Helpdesk Ticket Dependency History"
+msgstr "Histórico de dependências"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__id
+msgid "ID"
+msgstr "ID"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__write_uid
+msgid "Last Updated by"
+msgstr "Última modificação por"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: helpdesk_team_dependency
+#: model_terms:ir.ui.view,arch_db:helpdesk_team_dependency.view_helpdesk_ticket_form_inherit
+msgid "Select a team or leave blank"
+msgstr "Selecione uma Equipe ou deixe em branco"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__team_id
+#: model_terms:ir.ui.view,arch_db:helpdesk_team_dependency.view_helpdesk_ticket_form_inherit
+msgid "Team"
+msgstr "Equipe"
+
+#. module: helpdesk_team_dependency
+#: model:ir.model.fields,field_description:helpdesk_team_dependency.field_helpdesk_ticket_dependency_history__ticket_id
+msgid "Ticket"
+msgstr "Chamado"
